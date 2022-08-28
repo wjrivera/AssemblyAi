@@ -80,7 +80,7 @@ namespace AssemblyAi.Helpers
             HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Post, "upload");
             request.Headers.Add("Transer-Encoding", "chunked");
 
-            var fileReader = System.IO.File.OpenRead("D:\\OneDrive\\FGCU\\OneDrive - Florida Gulf Coast University\\JW\\Parts\\franco-08-27-2022.mp3");
+            var fileReader = System.IO.File.OpenRead("file-upload-path-here");
             var streamContent = new StreamContent(fileReader);
             request.Content = streamContent;
 
