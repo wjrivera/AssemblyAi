@@ -10,4 +10,4 @@ Console App that interacts with Assembly AI.  Its based on the [template](https:
 
 ### License, etc
 
-OnlyR is Copyright &copy; 2017, 2021 Antony Corbett and other contributors under the [MIT license](LICENSE).
+[MIT license](LICENSE).
