@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30717.126
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssemblyAi", "AssemblyAi\AssemblyAi.csproj", "{4F807546-5918-4CF6-A869-C41335D1FDE9}"
 EndProject
@@ -9,7 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer", "Consumer\Consum
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssemblyAiUnitTests", "AssemblyAiUnitTests\AssemblyAiUnitTests.csproj", "{812A3959-CD87-4C7E-992B-4AB93247C5F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyAi.Common", "AssemblyAi.Common\AssemblyAi.Common.csproj", "{F52B70BF-10A5-4A50-BC7A-5BB13368BC73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssemblyAi.Common", "AssemblyAi.Common\AssemblyAi.Common.csproj", "{F52B70BF-10A5-4A50-BC7A-5BB13368BC73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{B2E60C0D-46EC-4324-9EC6-F9DFA9498CE9}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
